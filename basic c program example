@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+	int a,b,c;
+	a=10;b=5;
+	c=a+b;
+	printf("the sum of the value:%d",c);
+	return 0;
+}
+output
+the sum of the value:15
