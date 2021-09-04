@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int a,b,result;
+printf("enter any number a:");
+scanf("%d",&a);
+printf("enter any number b:");
+scanf("%d",&b);
+result=a*b;
+printf("the multiplication of a and b is %d",result);
+return 0;
+} 
+
+output
+enter any number a:7
+enter any number b:5
+the multiplication of a and b is 35
