@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter any integer value of n:");
+    scanf("%d",&n);
+    if (!n==0){
+        if(n%2==0){
+            printf("the given value is even number");
+        }
+    else{
+        printf("The given value is odd");
+    }
+    }
+    else{
+        printf("Enter valid number without zero");
+        
+    }
+    return 0;
+}
+
+
+
+output
+Enter any integer value of n:2
+the given value is even number
