@@ -1,0 +1,40 @@
+#include<stdio.h>
+int main()
+{
+    int i;
+    int arr[10];
+    int sum=0;
+    for(i=0;i<=9;i++){
+        printf("Enter the %d element\n",i+1);
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<=9;i++){
+        sum=sum+arr[i];
+    }
+    printf("the sum of 10 array elements is %d",sum);
+    return 0;
+    
+}
+
+output
+Enter the 1 element
+10
+Enter the 2 element
+20
+Enter the 3 element
+10
+Enter the 4 element
+15
+Enter the 5 element
+15
+Enter the 6 element
+15
+Enter the 7 element
+15
+Enter the 8 element
+14
+Enter the 9 element
+15
+Enter the 10 element
+154
+the sum of 10 array elements is 283
