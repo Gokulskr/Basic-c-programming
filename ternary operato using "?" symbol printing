@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the two numbers:");
+    scanf("%d%d",&a,&b);
+    {
+        a%2 == 0 ? printf("the number is even"):printf("the number is odd");
+        b%2 == 0 ? printf("\nthe number is even"):printf("\nthe number is odd");
+        
+        
+        
+    }
+    return 0;
+}
+
+output
+Enter the two numbers:15 15
+the number is odd
+the number is odd
