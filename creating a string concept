@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    char s1[20]="my c program";
+    char s2[20];
+    printf("the string s1 is:%s",s1);
+    printf("\n enter the new string:");
+    scanf("%s",&s2[20]);
+    printf("you have entered string:%s",s2);
+    return 0;
+
+
+output
+the string s1 is:my c program
+ enter the new string:gokul vijay
+*** stack smashing detected ***: terminated
