@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    char s1[20]="My c program";
+    char s2[20];
+    printf("Enter a string s1 is:");
+    puts(s1);
+    printf("\nEnter a string:");
+    gets(s2);
+    printf("You entered a new string:%s",s2);
+    return 0;
+}
+
+output
+
+Enter a string s1 is:My c program
+
+Enter a string:this is my c program
+You entered a new string:this is my c program
