@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[20]="My c Program";
+    char s2[20];
+    printf("The string s1 is :");
+    puts(s1);
+    printf("\nEnter the next string:");
+    gets(s2);
+    printf("\nYou entered string:");
+    puts(s2);
+    return 0;
+}
+
+output
+
+The string s1 is :My c Program
+
+Enter the next string:gokul vijay programer
+
+You entered string:gokul vijay programer
