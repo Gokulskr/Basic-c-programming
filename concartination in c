@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[20]="Hello";
+    char s2[20]="world";
+    strcat(s1,s2);
+    printf("concartination of the string is:%s",s1);
+    return 0;
+}
+
+output
+concartination of the string is:Helloworld
