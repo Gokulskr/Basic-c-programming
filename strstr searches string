@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[50]="I'am an example fun function strchr";
+    printf("%s",strstr(s1,"f"));
+    return 0;
+}
+
+output
+fun function strchr
