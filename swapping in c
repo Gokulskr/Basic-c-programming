@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char first[100],second[100],t[100];
+    printf("Enter the first string:\n");
+    gets(first);
+    printf("\nEnter the second string:\n");
+    gets(second);
+    printf("\nbefore swapping");
+    printf("\nYou entered a first string:%s",first);
+    printf("\nYou entered a second string:%s",second);
+    strcpy(t,first);
+    strcpy(first,second);
+    strcpy(second,t);
+    printf("\nAfter swapping");
+    printf("\nfirst string:\n%s",first);
+    printf("\nsecond string:\n%s",second);
+    return 0;
+}
+
+output
+Enter the first string:
+This is c program
+
+Enter the second string:
+helloo world
+
+before swapping
+You entered a first string:This is c program
+You entered a second string:helloo world
+After swapping
+first string:
+helloo world
+second string:
+This is c program
