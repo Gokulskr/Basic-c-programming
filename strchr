@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char s1[50]="I'am an example of function strchr";
+    printf("%s",strchr(s1,'f'));
+    return 0;
+}
+output
+f function strchr
