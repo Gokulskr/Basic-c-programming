@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    int arr[] = {10,20,30,40,50,60};
+
+    n = sizeof(arr) / sizeof(int); 
+    printf("Number of elements arr:%d\n",n );
+    return 0;
+}
+output
+Number of elements arr:6
